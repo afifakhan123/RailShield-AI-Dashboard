@@ -1,0 +1,222 @@
+Build ONLY Day 1 of my project: RailShield AI Dashboard.
+
+Do not build the full application.
+Do not build SafeZone, Safe Route, Crowd Prediction, New Journey, authentication, backend, database, APIs, or real emergency integrations yet.
+
+PROJECT:
+RailShield AI
+Tagline: Detect • Predict • Protect
+
+Purpose:
+A preventive safety intelligence interface for railway stations. It analyzes station safety conditions and helps passengers make safer decisions.
+
+TECH:
+Use the simplest stable React + Vite setup available in this Replit project.
+Use JavaScript.
+Use Tailwind CSS if already available.
+Use Lucide React icons if already available.
+Do not introduce unnecessary libraries.
+
+DAY 1 GOAL:
+Create ONE polished working Dashboard screen.
+
+DESIGN:
+Make it look like a real safety intelligence application, NOT a marketing website.
+
+Use:
+- dark navy/charcoal application shell
+- clean modern cards
+- subtle borders and shadows
+- professional typography
+- green/yellow/red only for safety states
+- red primarily for SOS
+- responsive desktop and mobile layout
+- no stock photos
+- no huge marketing hero section
+- no excessive gradients
+
+LAYOUT:
+
+LEFT SIDEBAR:
+RailShield AI
+
+Navigation:
+Dashboard
+New Journey
+SafeZone
+Safe Route
+Crowd Intelligence
+Emergency SOS
+
+Bottom:
+Settings
+Prototype v1.0
+
+Only Dashboard needs to work.
+Other items can be disabled or show "Coming next".
+
+HEADER:
+Safety Dashboard
+
+Right side:
+notification icon
+user avatar
+Rose
+
+MAIN:
+
+Greeting:
+"Good evening, Rose 👋"
+
+Subtitle:
+"Here's your station safety overview."
+
+STATION CARD:
+
+Delhi Junction
+
+"Station detected from your current journey"
+
+Large circular score:
+78 / 100
+
+Label:
+MODERATE RISK
+
+Safety signals:
+Lighting — Good
+CCTV Coverage — High
+Crowd Density — Medium
+Emergency Access — Good
+Incident Risk — Low
+
+Add a button:
+"Why this score?"
+
+When clicked, show an expandable explanation:
+
+"RailShield combines station conditions such as crowd density, lighting, CCTV coverage, emergency access and incident risk to estimate the current safety level."
+
+Also display:
+"Prototype assessment based on simulated station data."
+
+SAFETY SIGNAL CARDS:
+
+Crowd
+68%
+Moderate
+
+CCTV
+HIGH
+Coverage
+
+Night Safety
+SAFE
+Conditions
+
+QUICK ACTIONS:
+
+View SafeZone
+"Explore station risk zones"
+
+Find Safe Route
+"Choose the safest practical route"
+
+Crowd Forecast
+"Predict upcoming congestion"
+
+These can be non-functional placeholders for Day 1.
+
+SOS:
+
+Create a floating emergency button in the bottom-right.
+
+Label:
+SOS
+
+Small text:
+Hold 2 sec
+
+Clicking it opens a confirmation modal:
+
+"Activate Emergency Mode?"
+
+"Your emergency workflow will prepare your location and notify configured trusted contacts."
+
+Buttons:
+Cancel
+Activate SOS
+
+After Activate SOS is clicked, show:
+
+"Emergency mode active"
+
+"Prototype emergency workflow"
+
+Do NOT contact any real emergency service.
+
+DATA:
+
+Create a simple local data object containing:
+
+station:
+Delhi Junction
+
+riskScore:
+78
+
+riskLevel:
+Moderate Risk
+
+lighting:
+Good
+
+cctv:
+High
+
+crowd:
+Medium
+
+emergencyAccess:
+Good
+
+incidentRisk:
+Low
+
+crowdPercentage:
+68
+
+nightSafety:
+Safe
+
+IMPORTANT IMPLEMENTATION RULES:
+
+1. Keep the code simple.
+2. Use reusable React components where useful.
+3. Keep station data separate from UI.
+4. Do not create a backend.
+5. Do not add APIs.
+6. Do not add authentication.
+7. Do not add AI API keys.
+8. Do not claim any feature is real-time.
+9. Do not create features I did not request.
+10. Make sure the app actually runs.
+
+Before finishing:
+- run the application
+- check for build errors
+- fix any errors
+- make sure the Dashboard appears in the preview
+- make sure the SOS modal works
+- make sure "Why this score?" works
+- make sure the layout works on desktop and mobile
+
+STOP after Day 1 Dashboard is working.
+
+At the end, tell me:
+1. What files you created
+2. What files you changed
+3. Whether the app runs successfully
+4. Any errors that remain
+
+Do not continue to Day 2.
