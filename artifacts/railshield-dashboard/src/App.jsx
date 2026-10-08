@@ -119,7 +119,10 @@ function App() {
       <main className="main-area">
         <header className="topbar">
           <button className="icon-button menu-trigger" aria-label="Open navigation" onClick={() => setMobileOpen(true)}><Menu size={20} /></button>
-          <div className="header-title">Safety Dashboard</div>
+          <div className="header-heading">
+            <div className="header-title">Safety Dashboard</div>
+            <span className="prototype-badge">PROTOTYPE • SIMULATED DATA</span>
+          </div>
           <div className="header-right">
             <span className="notification-indicator" aria-label="Notifications"><Bell size={19} /><span className="notification-dot" /></span>
             <div className="header-divider" />
