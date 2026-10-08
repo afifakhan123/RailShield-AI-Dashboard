@@ -1,0 +1,1 @@
+- [Mockup discovery dependency](mockup-discovery.md) — Avoid globbing dependencies that reintroduce vulnerable `braces` v3 until upstream ships a patch.
